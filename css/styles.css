@@ -77,14 +77,14 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #4d504f52;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -102,7 +102,7 @@ hr:not([size]) {
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-  margin-top: 0;
+  margin-top: -49px;
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -7493,8 +7493,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 0rem !important;
   background-color:#cbccce
 }
 
@@ -11288,4 +11288,122 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.btn:active, .active {
+  background-color:red;
+  color: white;
+}
+.containerLine {
+  width:100%; /* set the width of the container */
+}
+.horizontal-line {
+  width: 100%; /* set the width of the line to be equal to the width of the container */
+  border: none; /* remove the border */
+  height: 1px; /* set the height of the line */
+  background-color:black; /* set the color of the line */
+}
+
+
+.img-text {
+  display: none;
+}
+
+.upArrow {
+  cursor: pointer; /* changes cursor to a hand when hovering over the button */
+  border: none; /* removes the default border */
+  padding: 10px 20px; /* adds padding to the button */
+  background-color: gray; /* adds a green background color */
+  color: white; /* sets text color to white */
+  font-size: 16px; /* sets font size */
+  border-radius: 4px; /* adds rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* adds a drop shadow */
+  
+}
+
+.upArrow:hover {
+  background-color: #3e8e41; /* changes background color on hover */
+}
+.upArrow {
+  height: 19vh; /* 10% of viewport height */
+  width: 12vw; /* 20% of viewport width */
+}
+
+
+.upArrowdouble {
+  cursor: pointer; /* changes cursor to a hand when hovering over the button */
+  border: none; /* removes the default border */
+  padding: 10px 20px; /* adds padding to the button */
+  background-color: gray; /* adds a green background color */
+  color: white; /* sets text color to white */
+  font-size: 16px; /* sets font size */
+  border-radius: 4px; /* adds rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* adds a drop shadow */
+  
+}
+
+.upArrowdouble:hover {
+  background-color: #3e8e41; /* changes background color on hover */
+}
+.upArrowdouble {
+  height: 19vh; /* 10% of viewport height */
+  width: 12vw; /* 20% of viewport width */
+}
+
+
+.downArrow {
+  cursor: pointer; /* changes cursor to a hand when hovering over the button */
+  border: none; /* removes the default border */
+  padding: 10px 20px; /* adds padding to the button */
+  background-color: gray; /* adds a green background color */
+  color: white; /* sets text color to white */
+  font-size: 16px; /* sets font size */
+  border-radius: 4px; /* adds rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* adds a drop shadow */
+  
+}
+
+.downArrow:hover {
+  background-color: #3e8e41; /* changes background color on hover */
+}
+.downArrow {
+  height: 19vh; /* 10% of viewport height */
+  width: 12vw; /* 20% of viewport width */
+}
+
+
+.downdoubleArrow {
+  cursor: pointer; /* changes cursor to a hand when hovering over the button */
+  border: none; /* removes the default border */
+  padding: 10px 20px; /* adds padding to the button */
+  background-color:grey; /* adds a green background color */
+  color: white; /* sets text color to white */
+  font-size: 16px; /* sets font size */
+  border-radius: 4px; /* adds rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* adds a drop shadow */
+  
+}
+
+.downdoubleArrow:hover {
+  background-color: #3e8e41; /* changes background color on hover */
+}
+.downdoubleArrow {
+  height: 19vh; /* 10% of viewport height */
+  width: 12vw; /* 20% of viewport width */
+}
+figure {
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3vh;
+  width: 12vw; /* 20% of viewport width */
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin-left: 8px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom:18px;
 }

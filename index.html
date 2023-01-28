@@ -1,118 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>acme radio shuttle</title>
-        <link rel="icon" href="./assets/img/logo-acme.png" type="image/icon type">
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand font-weight-bold" href="#!">Radio shuttle</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">page 1</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">page 2</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">page 3</a></li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Header-->
-        <header class="bg-dark py-5">
-            <div class="container px-4 px-lg-5 my-5">
-                <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder">ACME Radio Shuttle</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">Radio shutttle at your finger tip!</p>
-                </div>
-            </div>
-        </header>
-        <!-- Section-->
-        <section class="py-5">
-            <div class="container px-4 px-lg-5 mt-5">
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <!--img class="card-img-top" src="/assets/up-arrow.png" alt="..." /-->
-                            <img src="./assets/img/up-arrow.png" alt="...">
-                            <!-- Product details-->
-                            
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn  mt-auto btn-secondary text-white btn-lg" href="#">Auto in</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                           
-                            <!-- Product image-->
-                            <img class="card-img-top" src="./assets/img/up-arrow (1).png" alt="..." />
-                            <!-- Product details-->
-                            
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn mt-auto btn-secondary text-white btn-lg" href="#">Auto in loop</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">  
-                           
-                            <!-- Product image-->
-                            <img class="card-img-top" src="./assets/img/down arrow single.png" alt="..." />
-                            <!-- Product details-->
-                          
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn mt-auto btn-secondary text-white btn-lg" href="#">Auto out</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <!-- Product image-->
-                            <img class="card-img-top" src="./assets/img/down-arrow new.png" alt="..." />
-                            <!-- Product details-->
 
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn mt-auto btn-secondary text-white btn-lg" href="#">Auto out loop</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                   
-                   
-                    
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="bg-light text-center text-lg-start">
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2022 Copyright:
-              <a class="text-dark" href="https://acme-world.com/">acme-world.com</a>
-            </div>
-            <!-- Copyright -->
-          </footer> 
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>acme radio shuttle</title>
+  <link rel="icon" href="/assets/logo-acme.png" type="image/icon type" />
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <style>
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 15px 16px;
+      background-color: rgb(66, 66, 240);
+      cursor: pointer;
+      font-size: 18px;
+    }
+    
+    /* Style the active class, and buttons on mouse-over */
+    .active, .btn:hover {
+      background-color: rgb(79, 75, 75);
+      color: rgb(11, 8, 8);
+    }
+    </style>
+</head>
+
+<body>
+  <!-- Header-->
+  <header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+      <div class="text-center text-white">
+        <h1 class="display-4 fw-bolder">ACME Radio Shuttle.</h1>
+      </div>
+    </div>
+  </header>
+  <!-- Section-->
+  <section class="">
+    <div class="container px-4 px-lg-5 mt-5"> 
+      <div class="d-flex justify-content-md-evenly">
+        <div id="myDIV">
+          <button type="button" class= "btn btn-secondary btn-lg mx-2 active">shuttle #1</button>
+          <button type="button" class= "btn btn-secondary btn-lg mx-2">shuttle #2</button>
+          <button type="button" class="btn btn-secondary btn-lg mx-2">shuttle #3</button>
+          <button type="button" class="btn btn-secondary btn-lg mx-2">shuttle #4</button>    
+
+        </div>
+      </div>
+      <div class="containerLine">
+        <hr class="horizontal-line" />
+      </div>
+      <div class="d-flex justify-content-start">
+        <div id="myDiv">
+          <button type="button" class= "btn-second btn-secondary btn-lg mx-2 active">Manual</button>
+          <button type="button" class= "btn-se btn-secondary btn-lg mx-2">Auto</button>
+        </div>
+      </div>
+      <div class="d-flex justify-content-md-evenly">
+        <figure>
+          <img class='downArrow my-5 mx-2' src="/assets/img/down arrow single.png" alt="Auto IN">
+          <figcaption>Auto IN</figcaption>
+        </figure>
+        <figure>
+          <img class='downdoubleArrow my-5 mx-2' src="/assets/img/down-arrow new.png" alt="Button">
+          <figcaption>Auto IN Loop</figcaption>
+        </figure>
+        <FIGure>
+          <img class='upArrow my-5 mx-2' src="/assets/img/up-arrow.png" alt="Button">
+          <FIGcaption>Auto Out</FIGcaption>
+        </FIGure>
+       <figure>
+        <img class='upArrowdouble my-5 mx-2' src="/assets/img/up-arrow (1).png" alt="Button">
+        <figcaption>Auto Out Loop</figcaption>
+       </figure>
         
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+      </div>
+    </div>
+      
+  </section>
+  
+  <!-- Footer-->
+  <footer class="bg-secondary text-center text-lg-start fixed-bottom">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://acme-world.com/">acme-world.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+
+  <script>
+   // Add active class to the current button (highlight it)
+
+    var header = document.getElementById("myDIV");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+      });
+    }
+    var headerSecond = document.getElementById("myDIV");
+    var btnsSecond = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+      });
+    }
+     
+    </script>
+</body>
+
 </html>
